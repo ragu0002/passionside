@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Lora:ital,wght@0,400..700;1,400..700&family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Orbitron:wght@400..900&family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Lora:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Orbitron:wght@400..900&family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet" />
+    <link rel="icon" href="favicon_io-4/favicon-32x32.png" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Passionside</title>
+  </head>
+  <body>
+    <header class="flex_menu">
+      <div class="logo">
+        <img src="bilder/logoo2.png" alt="logo" />
+      </div>
+
+      <h1 class="header_h1">Lystfiske</h1>
+      <nav class="menu">
+        <ul>
+          <li><a href="#info">Info</a></li>
+          <li><a href="#galleri">Galleri</a></li>
+          <li><a href="#video">Video</a></li>
+        </ul>
+      </nav>
+      <nav class="burger_container">
+        <div class="burger">
+          <div class="line"></div>
+          <div class="line"></div>
+          <div class="line"></div>
+        </div>
+      </nav>
+    </header>
+    <script src="script.js"></script>
+
+    <section class="hero">
+      <script src="https://unpkg.com/@dotlottie/player-component@2.7.12/dist/dotlottie-player.mjs" type="module"></script>
+      <dotlottie-player src="https://lottie.host/c294481b-b866-4a42-b5fe-0306f9ab2622/HUvxrDNou6.lottie" background="transparent" speed="1" loop autoplay></dotlottie-player>
+    </section>
+    <main>
+      <div class="grid_1-1">
+        <div class="col_1" id="info">
+          <h1>Passion Side</h1>
+          <h2 class="h2_passion">Historien bak:</h2>
+          <p>Mannik Sandvad begynte å fiske med sin far når han kun var fire år gammel. På den første fisketuren hans dro de ned til en lokal sø og fanget en gigantisk Gjedde. Som voksen har han fortsatt med denne hobbyen og drar ofte ut på fisketur, både alene og med venner.</p>
+          <p>Noe av det han liker best med å fiske er at man får kommet seg unna den travle verdagen så man får satt alt stresset på avstand. Fisking bringer også med seg et sosialt felleskap og han forteller om hvordan han er med i Facebook gruppe der de deler erfaringer og opplevelser rundt fisking.</p>
+        </div>
+        <div class="col">
+          <img src="bilder/bilde1.jpg" alt="bilde" />
+          <h3>"Jeg elsker å fiske" - Mannik, 25 år</h3>
+        </div>
+      </div>
+      <h2>Galleri</h2>
+      <div class="grid_1-1-1" id="galleri">
+        <img src="bilder/bilde2.jpg" alt="bilde" class="portrett" />
+        <img src="bilder/bilde3.jpg" alt="bilde" class="landskap" />
+        <img src="bilder/bilde4.jpg" alt="bilde" class="fiskestang" />
+        <img src="bilder/bilde5.jpg" alt="bilde" class="bro" />
+      </div>
+      <h2>Video</h2>
+      <div class="grid_1-1" id="video">
+        <video src="video/lystfiske.mp4" controls poster="bilder/Skjermbilde 2024-12-02 kl. 10.04.20.png"></video>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/W5IQ_ZCERwI?si=ORHvJ9X5TysI87MT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      </div>
+    </main>
+    <footer class="col">
+      <img src="bilder/sea.png" alt="sea" />
+      <p>© 2024 Ragnhild Gulbraar. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
